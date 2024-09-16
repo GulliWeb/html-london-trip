@@ -1,60 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>lONDON TRIP</title>
+    <meta name="author" content="Andrea Gulli">
+    <meta name="description" content="info for trip to london " >
+    <!--Aggiunta icona-->
+    <link rel="icon" href="img/img/London-1.jpg" type="Image/jpg">
 </head>
 <body>
     <!-- aggiunta header -->
     <header>
         <h1>Il mio viaggio a londra</h1>
-        <img src="img/img/pexels-bill-emrich-230794-0.jpg" alt="London">
-        <img src="img/img/pexels-bill-emrich-230794-1.jpg" alt="London">
-        <img src="img/img/pexels-bill-emrich-230794-2.jpg" alt="London">
+        <div>
+            <img src="img/img/London-1.jpg" alt="London eye">
+            <img src="img/img/London-2.jpg" alt="London bridge">
+            <img src="img/img/London-3.jpg" alt="Big ben">
+        </div>
         <hr>
     </header>
 
     <!-- aggiunta main -->
     <main>
-        <h3>Le mie spese</h3>
-        <!--aggiunta tabella-->
-        <table>
-            <!--Riga intestazione-->
-            <tr>
-                <th>Numero</th>
-                <th>Descrizione</th>
-                <th>Costo</th>
-            </tr>
-            <!--Prima riga-->
-            <tr>
-                <td>1</td>
-                <td>BigliettoAereo</td>
-                <td>120€</td>
-            </tr>
-            <!--Seconda riga-->
-            <tr>
-                <td>1</td>
-                <td>BigliettoAereo</td>
-                <td>120€</td>
-            </tr>
-             <!--terza riga-->
-             <tr>
-                <td>1</td>
-                <td>BigliettoAereo</td>
-                <td>120€</td>
-            </tr>
-            <!--Aggiunta table footer-->
-            <tfoot>
-                <tr>
-                    <td colspan="2">Totale</td>
-                    <td>360€</td>
+        <section id="expenses">
+            <h3>Le mie spese</h3>
+            <!--aggiunta tabella-->
+            <table>
+                <!--Riga intestazione-->
+                <thead>
+                    <th>Numero</th>
+                    <th>Descrizione</th>
+                    <th>Costo</th>
                 </tr>
-            </tfoot>
-        </table>
-        <hr>
-
+                </thead>
+                <tr>
+                <tbody>
+                    <!--Prima riga-->
+                    <tr>
+                        <td>1</td>
+                        <td>BigliettoAereo</td>
+                        <td>120€</td>
+                    </tr>
+                    <!--Seconda riga-->
+                    <tr>
+                        <td>1</td>
+                        <td>BigliettoAereo</td>
+                        <td>120€</td>
+                    </tr>
+                     <!--terza riga-->
+                     <tr>
+                        <td>1</td>
+                        <td>BigliettoAereo</td>
+                        <td>120€</td>
+                    </tr>
+                </tbody>
+                <!--Aggiunta table footer-->
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Totale</td>
+                        <td>360€</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+        
         <!--Inizio sezione cose da fare-->
-        <section id="CoseDaFare">
+        <section id="things-to-do">
             <h3>Cose da fare</h3>
             <ul>
                 <li>Visitare la Tower of London &#935;</li>
@@ -74,26 +86,42 @@
         <ol>
             <li>Numeri di emergenza</li>
             <!--Sub list unordered-->
-            <ul><li><strong>999</strong> - Emergenza</li></ul>
-            <ul><li><strong>101</strong> - Numero polizia</li></ul>
-            <ul><li><strong>111</strong> - Numero assistenza medica</li></ul>
+            <ul>
+                <li><strong>999</strong> - Emergenza</li>
+            </ul>
+            <ul>
+                <li><strong>101</strong> - Numero polizia</li>
+            </ul>
+            <ul>
+                <li><strong>111</strong> - Numero assistenza medica</li>
+            </ul>
             <!--Continuo ordered list-->
             <li>Hotel</li>
               <!--Sub List unordered-->
-            <ul><li><strong>Nome hotel: </strong>Buckingham Palace</li></ul>
-            <ul><li><strong>Indirizzo hotel: </strong>Westminister, London SW1A1AA, Regno Unito</li></ul>
+            <ul>
+                <li><strong>Nome hotel: </strong>Buckingham Palace</li>
+            </ul>
+            <ul>
+                <li><strong>Indirizzo hotel: </strong>Westminister, London SW1A1AA, Regno Unito</li>
+            </ul>
             <!--Continuo ordered list-->
             <li>Aereo</li>
-            <ul><li><strong>Volo di Andata: </strong>Y1234X, ore 9.30 da Milano Malpensa</li></ul>
-            <ul><li><strong>Volo di Ritorno: </strong>Y1236X, ore 18.30 da London Heartrow</li></ul>         
+            <ul>
+                <li><strong>Volo di Andata: </strong>Y1234X, ore 9.30 da Milano Malpensa</li>
+            </ul>
+            <ul>
+                <li><strong>Volo di Ritorno: </strong>Y1236X, ore 18.30 da London Heartrow</li>
+            </ul>         
         </ol>
         <hr>
     </section>
     <!--Inizio Section foto-->
-    <section id="fotoFooter">
+    <section id="pics-footer">
         <h3>Le foto</h3>
-        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="London Image">
-        <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="London Image">
+        <div>
+            <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="London Image">
+            <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="London Image">
+        </div>
     </section>
     </footer>
 </body>
